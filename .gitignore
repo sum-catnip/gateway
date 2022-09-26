@@ -1,0 +1,4 @@
+/test
+/venv
+deploy*
+__pycache__

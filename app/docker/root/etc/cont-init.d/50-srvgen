@@ -1,0 +1,6 @@
+#!/usr/bin/with-contenv bash
+
+#mkdir -p /services-static
+#cp -r /services /services-static
+
+python3 /app/srvgen/gen.py cfg

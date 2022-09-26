@@ -1,0 +1,10 @@
+[Unit]
+Description=vpn service gateway
+
+[Service]
+Environment=PYTHONUNBUFFERED=1
+# Command to execute when the service is started
+ExecStart=%h/.local/bin/gateway
+
+[Install]
+WantedBy=default.target
